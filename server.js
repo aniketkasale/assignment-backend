@@ -6,28 +6,28 @@ app.use(express.json());
 app.use(cors({ origin: true }));
 
 const jsonData = {
-  Users: ["User-1", "User-2", "User-3"],
-  Tasks: [
+  users: ["User-1", "User-2", "User-3"],
+  tasks: [
     {
-      Task: "Sample task -1",
-      Expiry_date: "10/21/2022",
-      User: "User-1",
-      Important: true,
-      Created_on: "01/10/2022",
+      task: "Sample task -1",
+      expiry_date: "10/21/2022",
+      user: "User-1",
+      important: true,
+      created_on: "01/10/2022",
     },
     {
-      Task: "Sample task -2",
-      Expiry_date: "03/03/2022",
-      User: "User-2",
-      Important: false,
-      Created_on: "01/10/2022",
+      task: "Sample task -2",
+      expiry_date: "03/03/2022",
+      user: "User-2",
+      important: false,
+      created_on: "01/10/2022",
     },
     {
-      Task: "Sample task -3",
-      Expiry_date: "05/30/2022",
-      User: "User-2",
-      Important: true,
-      Created_on: "01/10/2022",
+      task: "Sample task -3",
+      expiry_date: "05/30/2022",
+      user: "User-2",
+      important: true,
+      created_on: "01/10/2022",
     },
   ],
 };
