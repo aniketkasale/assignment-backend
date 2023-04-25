@@ -33,11 +33,11 @@ const jsonData = {
 };
 
 app.get("/tasks", async (req, res) => {
-  return res.status(200).json({ tasks: jsonData.Tasks });
+  return res.status(200).json({ tasks: jsonData.tasks });
 });
 
 app.get("/users", async (req, res) => {
-  return res.status(200).json({ users: jsonData.Users });
+  return res.status(200).json({ users: jsonData.users });
 });
 
 app.listen(process.env.PORT);
